@@ -1,0 +1,15 @@
+*{
+    margin: auto;
+    padding: auto;}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
+    margin-top: 10px;
+}
+
+.navlinks li {
+    display: inline;
+    padding: 0px,20px;
+}
