@@ -1,24 +1,20 @@
 :root {
---blue: #9BABB8;
+--blue: #041522b9;
 --sand:#EEE3CB;
 --tan:#D7C0AE;
 --brown:#967E76;
 --fontcolor:#02011c;
-
-
-
 }
+
 *{
     margin: 0;
     padding: 0;
     font-family: monospace ;}
     
-    
 
     header {
         padding: 20px;
         background-color: var(--sand);
-
     }
 
     header h1 {
@@ -74,12 +70,13 @@
         padding: 15px;
         font-size: larger;
     }
-    main {
-       
-        border: solid;
+    .mainp {
+        justify-content: ;
         position: relative;
         left: 320px;
         bottom: 760px;
+        margin-right: 350px;
+        
     }
      
    
@@ -89,22 +86,49 @@
     }
 
     
-     .card{
-   display: flex;
-   justify-content: space-around;
-   flex-shrink: 1;
-
+    .card{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: stretch;
+     background-color: var(--sand);
+     width: 900px;
     }
 
     .projects {
-        display: inline-block;
+        justify-content: space-evenly;
         margin: 10px;
         padding: 10px;
         background-color: var(--brown);
-       
+        height: 250px;
+        
+    }
     .photos {
-        height: 150px;
+        width: 150px;
+        margin: 10px;
 
     }
+
+    .code {
+        display: flex;
+        justify-content: space-around;
         
+    }
+    
+    main h2 {
+        font-size: 25pt;
+        margin: 10px;
+        padding: 10px;
+        margin-left: 400px;
+        background-color: var()
+    }
+
+    footer h2 {
+        font-size: 25pt;
+        margin: 10px;
+        padding: 10px;
+        margin-left: 400px;
+        background-color: var()
+    }
+    .contact {
+        display: flex;
     }
