@@ -48,41 +48,63 @@
         margin: 30px 30px;
         border-style: inset;
         height: 100%;
-        width: 25%;
+        width: 250px;
     }
     aside h2{
-        font-size: 25pt;
-    }
-    .profile {
-        height: 200px;
-        width: 200px;
-        border-style: solid;
-        position: relative;
-        left: 30px;
-
-    }
-    .about{
-        
-      
-        
-    }
-    .asidep{
-        margin-left: 10px;
-        padding: 15px;
-        font-size: larger;
-    }
-    h2 {
-    
-     
+      font-size: 25pt;
       position: relative;
       top: 5px;
       padding: 10px;
       bottom: 30px;
       left: 70px;
     }
+    .profile {
+        height: 200px;
+        width: 200px;
+        border-style: solid;
+        position: relative;
+        left: 25px;
+
+    }
+    
+        
+    
+    .asidep{
+        margin-left: 10px;
+        padding: 15px;
+        font-size: larger;
+    }
+    main {
+       
+        border: solid;
+        position: relative;
+        left: 320px;
+        bottom: 760px;
+    }
+     
+   
     h3 {
         font-size: 15pt;
-        margin-left: 60px;
-        padding-top: 10px;
+        padding: 10px;
+    }
 
+    
+     .card{
+   display: flex;
+   justify-content: space-around;
+   flex-shrink: 1;
+
+    }
+
+    .projects {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        background-color: var(--brown);
+       
+    .photos {
+        height: 150px;
+
+    }
+        
     }
