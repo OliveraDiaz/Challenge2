@@ -3,18 +3,22 @@
 --HdFt:#35363a;
 --maincard:#219cc9;
 --bdy:#0b0312;
---fontcolor:#02011c;
+--fontcolor:#ffffff;
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: monospace ;}
+    font-family: monospace; 
+    color: var(--fontcolor);}
     
 
     header {
         padding: 20px;
-        background-color: var(--HdFt);
+        background-color: rgb(8, 1, 29);
+        -webkit-box-shadow: 2px 7px 25px 15px rgba(0,0,0,1);
+        -moz-box-shadow: 2px 7px 25px 15px rgba(0,0,0,1);
+        box-shadow: 2px 7px 25px 15px rgba(0,0,0,1);
     }
 
     header h1 {
@@ -26,19 +30,22 @@
 
  
 .nav {
-    display: flex;
+    
     margin-right: 20px;
     float: right;
 }
+.navigation
+{display: flex;
+display: inline-block;}
 
-    aside {
+aside {
         background-color: var(--Biofloat);
         margin: 30px 30px;
         border-style: inset;
         height: 100%;
         width: 250px;
     }
-    aside h2{
+aside h2{
       font-size: 25pt;
       position: relative;
       top: 5px;
@@ -63,8 +70,9 @@
 
     }
     body {
-    background-color: var(--bdy);
+        background: rgba(0,16,64,1);
 }
+
     .mainp {
        
     display: flex;
@@ -78,9 +86,8 @@
         justify-content: space-evenly;
         margin: 10px;
         padding: 10px;
-        background-color: var(--HdFt);
-        height: 250px;
-        
+        background: -webkit-linear-gradient(top, rgba(8,8,31,1) 0%, rgba(10,5,38,1) 41%, rgba(19,3,82,1) 100%);
+        border-radius: 10px
     }
    
     h3 {
@@ -94,6 +101,7 @@
      justify-content: space-evenly;
      align-items: stretch;
      background-color: var(--maincard);
+     border-radius: 10px;
      width: 900px;
     }
 
@@ -107,6 +115,9 @@
     .code {
         display: flex;
         justify-content: space-around;
+        -webkit-box-shadow: 2px 7px 25px 15px rgba(0,0,0,1);
+-moz-box-shadow: 2px 7px 25px 15px rgba(0,0,0,1);
+box-shadow: 2px 7px 25px 15px rgba(0,0,0,1);
         
     }
     
@@ -126,6 +137,7 @@ footer{
         justify-content: space-around;
         font-size: 25pt;
         padding: 10px;
+        box-shadow: 0px -10px 19px -4px rgba(0,0,0,1);
         
 
     }
