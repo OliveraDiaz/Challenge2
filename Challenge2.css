@@ -37,55 +37,62 @@ header h1 {
  button{
     width: 100px;
     height:50px;
-    background-color: #0e0116;
+    background-color: #35363a;
     font-size: larger;
     margin: 5px;
+    border-radius: 5px;
+    transition-duration: .4s;
     }
+button:hover {
+    background-color: #219cc9;
+}
 .nav {
     display: flex;
-    
-    
 }
 
-
+.Blue{
+    
+   flex-wrap: wrap;
+  
+}
 aside {
         background-color: var(--Biofloat);
-        margin: 30px 30px;
         border-style: inset;
         height: 100%;
-        width: 250px;
-    }
+        width: 30%    }
 aside h2{
-      font-size: 25pt;
-      flex-wrap: wrap;
+      font-size: 25pt;     
       top: 5px;
-      padding: 10px;
-      
+
+
     }
 .profile {
         height: 70%;
         width: 70%;
-        margin: 25px;
+        margin: 15%;
         border-style: solid;
         left: 25px;
-
     }
     
-        
+h3 {
+    margin-left: 17%;
+    
+   
+}
     
 .asidep{
-        margin-left: 10px;
-        padding: 15px;
-
+       font-size: 15pt;       
+       line-height: 25px;
     }
 body {
         background: rgba(0,16,64,1);
 }
 aside{
-/* float: left; */
+padding: 1%;
 }
 main {
     display:flex;
+    margin: 40px;
 }
 .mainp {
     display: block;
@@ -99,12 +106,14 @@ main {
      margin: 10px;
      padding: 10px;
      background: -webkit-linear-gradient(top, rgba(8,8,31,1) 0%, rgba(10,5,38,1) 41%, rgba(19,3,82,1) 100%);
-     border-radius: 10px
+     border-radius: 10px;
+     
     }
    
 h3 {
     font-size: 15pt;
     padding: 10px;
+    
     }
 
     
@@ -116,6 +125,8 @@ h3 {
      background-color: var(--maincard);
      border-radius: 10px;
      width: 100%;
+    
+     
     }
 
     
@@ -152,8 +163,6 @@ footer h2 {
     font-size: 25pt;
     padding: 10px;
     box-shadow: 0px -10px 19px -4px rgba(0,0,0,1);
-        
-
     }
 
 .contact {
@@ -163,10 +172,10 @@ padding: 15px;
     }
 
    
-    @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
         main,
-        nav {
+        nav,aside {
           flex-direction: column;
         }
-      }
+      } */
       
